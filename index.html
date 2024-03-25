@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expense Tracker</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylec.css">
     <link rel="shortcut icon" href="budgeting.png">
 </head>
 <body>
@@ -17,12 +17,15 @@
         <h2> Track every expense,Save every penny.</h2>
 <!--Cost catcher-->
     </div>
+
     <div class="main">
         <div class="container">
             <div class="top_card">
                 <p>Your Current Balance</p>
                 <h3><span id="symbol">$</span><span id="balance">10500</span></h3>
             </div>
+
+
             <div class="form">
                 <h3>Add new transaction</h3>
 
@@ -30,6 +33,7 @@
                     <label for="transaction_name">Name</label>
                     <input type="text" name="transaction_name" placeholder="My Salary" id="transaction_name">
                 </div>
+
                 <div class="form-group radio">
                     <label for="transaction_type">Type</label>
                     <div class="radio_group">
@@ -40,7 +44,9 @@
                         <input type="radio" value="expense" name="transaction_type" id="expense" placeholder="Expense">
                         <label for="transaction_type">Expense</label>          
                     </div>
+                    
                 </div>
+
                 <div class="form-group">
                     <label for="transaction_amount">Amount</label>
                     <input type="number" placeholder="Rupees" name="transaction_amount" id="transaction_amount">
@@ -60,7 +66,7 @@
                     <li class="transaction income">
                         <p>Earned this month</p>
                         <div class="right">
-                            <p>10000000</p>
+                            <p>+$100</p>
                             <button class="link">
                                 <i class="fas fa-edit"></i>
                             </button>
@@ -76,7 +82,7 @@
     </div>
 
     <div class="footer">
-        &copy;Expensetracker by yogitha
+        &copy;A website designed by yogitha
     </div>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
